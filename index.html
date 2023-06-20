@@ -1,0 +1,273 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music For Everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="aside">
+            <div class="home">
+                <div><i class="fa-solid fa-house"></i>Home</div>
+                <div><i class="fa-solid fa-magnifying-glass"></i>Search</div>
+            </div>
+            <div class="your_library">
+                <div class="head">
+                    <span><i class="fa-solid fa-book-open"></i>Your Library</span>
+                    <span><i class="fa-solid fa-plus"></i><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="type">
+                    <span>Playlists</span>
+                    <span>Podcasts & Shows</span>
+                </div>
+                <div class="search">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span>
+                        <select name="cars" id="cars">
+                            <option value="volvo">Recents</option>
+                            <option value="saab">Recently Added</option>
+                            <option value="mercedes">Alphabetical</option>
+                            <option value="audi">Creator</option>
+                        </select>
+                    </span>
+                </div>
+                <div class="playlist">
+                    <div>
+                        <img src="images/your_episodes.png">
+                        <span>
+                            <span>Your Episodes</span>
+                            <span class="light_gray">Saved & downloaded episodes</span>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/playlist1.png">
+                        <span>
+                            <span>English</span>
+                            <span class="light_gray">Saved & downloaded episodes</span>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/playlist2.png">
+                        <span>
+                            <span>Hindi</span>
+                            <span class="light_gray">Saved & downloaded episodes</span>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/playlist3.png">
+                        <span>
+                            <span>Punjabi</span>
+                            <span class="light_gray">Saved & downloaded episodes</span>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/playlist4.png">
+                        <span>
+                            <span>Vibes</span>
+                            <span class="light_gray">Saved & downloaded episodes</span>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/playlist5.png">
+                        <span>
+                            <span>Gym</span>
+                            <span class="light_gray">Saved & downloaded episodes</span>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="images/playlist6.png">
+                        <span>
+                            <span>Soothing</span>
+                            <span class="light_gray">Saved & downloaded episodes</span>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="top">
+                <span>
+                    <span class="nav-buttons"><i class="fa-solid fa-angle-left"></i></span>
+                    <span class="nav-buttons"><i class="fa-solid fa-angle-right"></i></span>
+                </span>
+
+                <span class="profile">
+                    <span class="profile_btn">Explore Premium</span>
+                    <span class="profile_btn2"><i class="fa-regular fa-circle-down"></i>Install App</span>
+                    <span><img src="images/profile.jpeg"></span>
+                </span>
+            </div>
+            <div class="songs">
+                <div class="ad">
+                    <div class="ad_content">
+                        <span>
+                            <img src="images/ad.png">
+                            <span class="title">
+                                <span>PlayList</span>
+                                <span class="head">Dil Ka Sukoon</span>
+                                <span>Listen to relaxing love songs to make your day...Only on Dil Ka Sukoon! Follow
+                                    Now!</span>
+                                <span class="play_btn"><span class="btn1">Play</span> <span class="btn2">Follow</span>
+                                    <span class="btn3"><i class="fa-solid fa-ellipsis"></i></span></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="recently_played">
+                    <h2>
+                        Recently Played
+                    </h2>
+                    <div class="recently_played_songs">
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="recently_played">
+                    <h2>
+                        Episodes for you
+                    </h2>
+                    <div class="recently_played_songs">
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                        <div id="card">
+                            <img src="images/playlist1.png">
+                            <span class="song_name">song name</span>
+                            <span class="artist_name">artist name</span>
+                            <img src="images/Spotify-Play-Button.png" class="play">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="play_bar">
+        <span>
+            <img src="images/playlist1.png">
+        </span>
+        <span class="current_song">
+            <span class="song_name">song name</span>
+            <span class="artist_name">artist name</span>
+        </span>
+        <span>
+            <span class="play_btn"><i class="fa-solid fa-heart"></i></span>
+        </span>
+        <span class="controls">
+            <span>
+                <span class="play_btn"><i class="fa-solid fa-step-backward"></i></span>
+                <span class="play_btn"><i class="fa-solid fa-play"></i></span>
+                <span class="play_btn"><i class="fa-solid fa-step-forward"></i></span>
+            </span>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </span>
+
+        <span class="media-controls">
+            <span class="play_btn"><i class="fa-solid fa-microphone"></i></span>
+            <span class="play_btn"><i class="fa-solid fa-bars"></i></span>
+            <span class="play_btn"><i class="fa-solid fa-computer"></i></span>
+            <span class="play_btn"><i class="fa-solid fa-volume-high"></i></span>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </span>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
