@@ -13,7 +13,7 @@ The project consists of the following files and directories:
 ## Getting Started
 To run the Spotify home page locally, follow these steps:
 
-- Clone the repository: git clone https://github.com/your-username/spotify-homepage.git
+- Clone the repository
 - Open the project directory: cd spotify-homepage
 - Open index.html in your preferred web browser.
 
