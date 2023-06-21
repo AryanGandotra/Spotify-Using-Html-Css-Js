@@ -5,7 +5,7 @@ const recently_played_songs2 = document.querySelectorAll(
 
 async function readJSON1() {
   try {
-    const response = await fetch("recently_played.json");
+    const response = await fetch("Json/recently_played.json");
 
     if (!response.ok) {
       throw new Error("Unable to fetch JSON file.");
@@ -41,7 +41,7 @@ async function readJSON1() {
 
 async function readJSON2() {
   try {
-    const response = await fetch("popular_albums.json");
+    const response = await fetch("Json/popular_albums.json");
 
     if (!response.ok) {
       throw new Error("Unable to fetch JSON file.");
@@ -96,8 +96,7 @@ play.addEventListener("click", function () {
   if (play.classList.contains("fa-circle-play")) {
     play.classList.remove("fa-circle-play");
     play.classList.add("fa-pause-circle");
-  }
-  else{
+  } else {
     play.classList.remove("fa-pause-circle");
     play.classList.add("fa-circle-play");
   }
