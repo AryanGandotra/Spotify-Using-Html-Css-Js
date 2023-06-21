@@ -1,0 +1,32 @@
+[
+  {
+    "image": "images/popular_albums_1.png",
+    "song_name": "Yeh Jawaani Hai Deewani",
+    "song_artist": "Pritam"
+  },
+  {
+    "image": "images/popular_albums_2.png",
+    "song_name": "Champagne Talk",
+    "song_artist": "King"
+  },
+  {
+    "image": "images/popular_albums_3.png",
+    "song_name": "Moosetape",
+    "song_artist": "Sidhu Moose Wala"
+  },
+  {
+    "image": "images/popular_albums_4.png",
+    "song_name": "Kabir Singh",
+    "song_artist": "Various Artists"
+  },
+  {
+    "image": "images/popular_albums_5.png",
+    "song_name": "Safar",
+    "song_artist": "Juss, MixSingh"
+  },
+  {
+    "image": "images/popular_albums_6.png",
+    "song_name": "WOH",
+    "song_artist": "Ikka, Dino James, Badshah"
+  }
+]

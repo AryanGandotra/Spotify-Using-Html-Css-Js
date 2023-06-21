@@ -9,6 +9,10 @@ body {
     background-color: #000000;
 }
 
+i:hover {
+    cursor: pointer;
+}
+
 
 
 .container {
@@ -369,6 +373,10 @@ body {
     font-weight: 700;
 }
 
+.main .songs .ad .ad_content .title .head:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 .main .songs .ad .ad_content .title span {
     flex: 1;
@@ -434,7 +442,6 @@ body {
 
 
 .main .songs .recently_played {
-    height: 50%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -473,9 +480,31 @@ body {
     flex-shrink: 0;
 }
 
+.card {
+    padding: 1rem;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.main .songs .recently_played .recently_played_songs .song_name,
+.main .songs .recently_played .recently_played_songs .artist_name {
+    width: 100%;
+    height: 15px;
+    display: block;
+    overflow: hidden;
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+}
+
+.artist_name {
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+}
 
 .main .songs .recently_played .recently_played_songs div img {
-    height: 70%;
+    height: 60%;
     width: 90%;
     border-radius: 0.5rem;
     margin-top: 0.5rem;
@@ -484,10 +513,10 @@ body {
 
 .main .songs .recently_played .recently_played_songs div .play {
     position: absolute;
-    top: 10rem;
-    right: 1rem;
-    height: 4rem;
-    width: 4rem;
+    top: 9rem;
+    right: 2rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
     opacity: 0;
@@ -564,7 +593,6 @@ body {
 }
 
 .play_bar .current_song {
-    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -572,6 +600,11 @@ body {
     margin-right: 1rem;
     text-transform: capitalize;
 }
+
+.play_bar .current_song>span {
+    width: 100%;
+}
+
 
 .play_bar .controls {
     display: flex;
@@ -639,4 +672,12 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.right_bar_btn{
+    color: #b3b3b3;
+    transition: all 0.2s ease-in-out;
+}
+.right_bar_btn:hover{
+    color: white;
 }
