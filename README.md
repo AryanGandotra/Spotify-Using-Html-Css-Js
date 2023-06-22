@@ -28,4 +28,5 @@ To run the Spotify home page locally, follow these steps:
 
 Screenshots
 Here are some screenshots of the Spotify home page:
+
 ![](https://github.com/AryanGandotra/Spotify-Using-Html-Css-Js/blob/main/images/Demo.png)
